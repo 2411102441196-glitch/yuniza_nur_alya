@@ -1,7 +1,7 @@
 
 ---
 
-## 🚀 Cara Build / Run
+## Cara Build / Run
 
 1. Clone / download repository ini.
 2. Pastikan semua gambar profil dan feed tersedia di folder `assets/img/`.
@@ -10,7 +10,7 @@
 
 ---
 
-## 📦 Dependensi
+## Dependensi
 
 - **[Bootstrap 5.3.3](https://getbootstrap.com/)**  
   Digunakan untuk grid system, komponen card, navbar, dan tombol.
@@ -20,7 +20,7 @@
 
 ---
 
-## 📝 Catatan Desain
+## Catatan Desain
 
 - **Grid system:**  
   - Mobile ≤576px → 1 kolom (`col-12`)  
@@ -38,7 +38,7 @@
 
 ---
 
-## 📸 Preview
+## Preview
 
 Contoh tampilan (mockup):
 - **Mobile:** 1 kolom feed
@@ -47,5 +47,5 @@ Contoh tampilan (mockup):
 
 ---
 
-## 📜 Lisensi
+## Lisensi
 Proyek ini dibuat untuk tujuan pembelajaran dan tidak berafiliasi dengan Instagram.
