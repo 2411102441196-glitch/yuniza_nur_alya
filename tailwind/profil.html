@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instagram Profile Clone - Tailwind</title>
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header / Navbar -->
+  <nav class="bg-white shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-xl font-bold">MyInstagram</h1>
+    </div>
+  </nav>
+
+  <!-- Profile Header -->
+  <header class="max-w-4xl mx-auto px-4 py-6">
+    <div class="grid grid-cols-3 gap-4 items-center">
+      <!-- Profile Picture -->
+      <div class="col-span-1 flex justify-center">
+        <img src="WhatsApp Image 2025-09-18 at 22.34.08_70aa7ea0.jpg"
+             class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover">
+      </div>
+
+      <!-- Info -->
+      <div class="col-span-2 flex flex-col space-y-2">
+        <div class="flex flex-col md:flex-row md:items-center md:space-x-4">
+          <h2 class="text-2xl font-semibold">username_here</h2>
+          <!-- Tombol dengan responsive order -->
+          <div class="flex space-x-2 mt-2 md:mt-0 order-2 md:order-1">
+            <button class="px-3 py-1 text-sm bg-blue-500 text-white rounded md:px-4 md:py-2 md:text-base">
+              Follow
+            </button>
+            <button class="px-3 py-1 text-sm border rounded md:px-4 md:py-2 md:text-base">
+              Message
+            </button>
+          </div>
+        </div>
+        <ul class="flex space-x-4 text-sm md:text-base">
+          <li><span class="font-semibold">120</span> posts</li>
+          <li><span class="font-semibold">5.4k</span> followers</li>
+          <li><span class="font-semibold">530</span> following</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- Bio -->
+  <section class="max-w-4xl mx-auto px-4 mb-6">
+    <p class="font-semibold">Full Name</p>
+    <p>🌍 Traveler | 📸 Photographer | 🎨 Digital Artist</p>
+    <a href="#" class="text-blue-600 hover:underline">www.myportfolio.com</a>
+  </section>
+
+  <!-- Feed -->
+  <main class="max-w-6xl mx-auto px-4">
+    <!-- Grid dengan responsive cols -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+      <!-- Card contoh nesting grid -->
+      <div class="bg-white shadow rounded overflow-hidden">
+        <div class="grid grid-cols-1">
+          <img src="WhatsApp Image 2025-09-19 at 20.32.18_24a483d8.jpg" alt="feed1"
+               class="w-full h-48 object-cover">
+        </div>
+      </div>
+      <div class="bg-white shadow rounded overflow-hidden">
+        <img src="WhatsApp Image 2025-09-19 at 21.07.05_51f152a1.jpg" alt="feed2"
+             class="w-full h-48 object-cover">
+      </div>
+      <div class="bg-white shadow rounded overflow-hidden">
+        <img src="WhatsApp Image 2025-09-22 at 20.29.42_8443274e.jpg" alt="feed3"
+             class="w-full h-48 object-cover">
+      </div>
+      <div class="bg-white shadow rounded overflow-hidden">
+        <img src="WhatsApp Image 2025-09-22 at 20.29.42_8ec07433.jpg" alt="feed4"
+             class="w-full h-48 object-cover">
+      </div>
+      <div class="bg-white shadow rounded overflow-hidden">
+        <img src="WhatsApp Image 2025-09-22 at 20.29.42_a5c80610.jpg" alt="feed5"
+             class="w-full h-48 object-cover">
+      </div>
+      <div class="bg-white shadow rounded overflow-hidden">
+        <img src="WhatsApp Image 2025-09-22 at 20.29.43_3fab9bd1.jpg" alt="feed6"
+             class="w-full h-48 object-cover">
+      </div>
+      <div class="bg-white shadow rounded overflow-hidden">
+        <img src="WhatsApp Image 2025-09-22 at 20.29.43_6bacea1e.jpg" alt="feed7"
+             class="w-full h-48 object-cover">
+      </div>
+      <div class="bg-white shadow rounded overflow-hidden">
+        <img src="WhatsApp Image 2025-09-22 at 20.29.43_d4e41c9f.jpg" alt="feed8"
+             class="w-full h-48 object-cover">
+      </div>
+      <div class="bg-white shadow rounded overflow-hidden">
+        <img src="aji.png" alt="feed9"
+             class="w-full h-48 object-cover">
+      </div>
+      <div class="bg-white shadow rounded overflow-hidden">
+        <img src="nur.png" alt="feed10"
+             class="w-full h-48 object-cover">
+      </div>
+      <div class="bg-white shadow rounded overflow-hidden">
+        <img src="ynzaa.jpg" alt="feed11"
+             class="w-full h-48 object-cover">
+      </div>
+      <div class="bg-white shadow rounded overflow-hidden">
+        <img src="yunizaa.png" alt="feed12"
+             class="w-full h-48 object-cover">
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-center text-sm text-gray-600 py-4 mt-8">
+    &copy; 2025 MyInstagram Clone
+  </footer>
+
+</body>
+</html>
